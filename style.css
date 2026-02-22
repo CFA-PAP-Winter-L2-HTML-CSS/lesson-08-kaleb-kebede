@@ -158,6 +158,59 @@ main>p {
 
 /*==================Student code 8 ===================*/
 
+/* Exercise 1: header padding-top */
+header {
+  padding-top: 0;
+}
 
+/* Exercise 1: nav bar */
+nav {
+  margin-bottom: 60px;
+  padding: 20px;
+  text-align: left;
+  background-color: #231f20;
+  position: relative; /* Exercise 3 */
+}
+
+/* Exercise 1: small logo */
+#nav-logo {
+  width: 250px;
+}
+
+/* Exercise 2: menu list inline */
+#menu {
+  margin: 0 0 0 60px;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+  list-style-type: none;
+}
+
+/* Exercise 2: li inline (child combinator) */
+#menu > li {
+  margin: 0 10px;
+  padding: 0;
+  display: inline-block;
+}
+
+#menu > li > a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.95em;
+}
+
+#menu > li > a:visited {
+  color: #dddddd;
+}
+
+#menu > li > a.current,
+#menu > li > a:hover {
+  text-decoration: underline;
+}
+#contact {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+}
 
 /*=================== Practice Session ===============*/
